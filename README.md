@@ -11,6 +11,8 @@ Object detection using computer vision technqiues:
 
 Whilst Google Colab was used to train the machine learning model, the following files were used to deploy the machine learning model onto the Raspberry Pi 4:
 
-requirements.txt: Contains all the necessary libraries detect.py: Main script that enables the initialisation and continous running of the model utils.py: Enables bounding boxes to be shown, counts the number of identified objects and enables text-to-speech formatting using the gtts library
+requirements.txt: Contains all the necessary libraries
+detection.py: Main script that enables the initialisation and continous running of the model
+utils.py: Enables bounding boxes to be shown, counts the number of identified objects and enables text-to-speech formatting using the gtts library
 
 model_edgetpu.tflite: Trained machine learning tflite model file
